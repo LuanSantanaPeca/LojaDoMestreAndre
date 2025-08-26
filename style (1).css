@@ -36,34 +36,34 @@ body {
 
 
 .secondSection{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 48px;
+    padding-bottom: 48px;
     background-color: white;
 }
 .titles{
     font-weight: 700;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 24px;
+    line-height: 32px;
     text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 0rem;
+    margin-bottom: 32px;
+    margin-top: 0px;
 }
 .grid{
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 1rem;
+    gap: 16px;
 }
 .frame{
     text-align: center;
-    padding: 1.5rem;
+    padding: 24px;
     background-color: rgba(249, 250, 251, 0.815);
-    border-radius: 0.5rem;
+    border-radius: 8px;
     object-fit: cover;
 }
 .photo{
     justify-content: center;
     display: flex;
-    margin-bottom: 0.75rem;
+    margin-bottom: 12px;
 }
 .fitphoto{
     object-fit: cover;
@@ -80,18 +80,18 @@ body {
 
 .thirdSection{
     background-color: rgba(249, 250, 251, 0.815);
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 .textAlign-Padding{
     text-align: center;
-    padding: 1.5rem;
+    padding: 24px;
 }
 .iconAlign{
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -105,22 +105,20 @@ body {
     border-radius: 50%;
 }
 .iconCustomize{
-    --tw-text-opacity: 1;
-    color: rgb(37 99 235 / var(--tw-text-opacity, 1));
-    font-size: 1.5rem;
-    line-height: 2rem;
+    color: rgb(37 99 235);
+    font-size: 24px;
+    line-height: 32px;
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
 }
 .fontSemibold{
     font-weight: 600;
     font-size: 16px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
     margin: 0
 }
 .text-gray{
-    --tw-text-opacity: 1;
-    color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+    color: rgb(75 85 99);
     margin: 0;
     padding: 0;
 }
@@ -128,18 +126,16 @@ body {
 
 
 .fourthSection{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: rgb(255 255 255);
 }
 .overflow{
     overflow-x: auto;
 }
 .table{
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-    border-radius: 0.5rem;
+    background-color: rgb(255 255 255);
+    border-radius: 8px;
     overflow: hidden;
     min-width: 100%;
     text-indent: 0;
@@ -148,15 +144,13 @@ body {
     border-style: solid;
 }
 .thead{
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-    --tw-bg-opacity: 1;
-    background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
+    color: rgb(255 255 255);
+    background-color: rgb(31 41 55);
 }.theadText{
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .left{
     text-align: left;
@@ -168,38 +162,35 @@ body {
     text-align: center;
 }
 .tbody{
-    --tw-text-opacity: 1;
-    color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+    color: rgb(55 65 81);
 }
 .tbodyText{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    --tw-border-opacity: 1;
-    border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
-    border-bottom-width: 1px;}
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-color: rgb(229 231 235);
+    border-bottom-width: 1px;
+}
 .green{
     font-weight: 500;
-    --tw-text-opacity: 1;
-    color: rgb(22 163 74 / var(--tw-text-opacity, 1));
+    color: rgb(22 163 74);
 }
 #disclaimer{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    margin-top: 1rem;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
 }
 
 
 
 .fifthSection{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    --tw-bg-opacity: 1;
-    background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: rgb(249 250 251);
 }
 .button{
-    gap: 1.5rem;
+    gap: 24px;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     display: grid;
 }
@@ -207,43 +198,40 @@ body {
     color: inherit;
     text-decoration: inherit;
     display: block;
-    border-radius: 0.5rem;
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-    padding: 1rem;
+    border-radius: 8px;
+    background-color: rgb(255 255 255);
+    padding: 16px;
     
     --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 #youtube{
-    --tw-text-opacity: 1;
-    color: rgb(37 99 235 / var(--tw-text-opacity, 1));
-    font-size: 2rem;
-    line-height: 0.5rem;
-    padding-top: 1rem;
+    color: rgb(37 99 235);
+    font-size: 32px;
+    line-height: 8px;
+    padding-top: 16px;
 }
 
 
 .sixthSection{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: rgb(255 255 255);
 }
 .contactForm{
-    --tw-bg-opacity: 1;
-    background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
-    border-radius: 0.5rem;
-    padding: 2rem;
+    background-color: rgb(249 250 251);
+    border-radius: 8px;
+    padding: 32px;
     --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .mb-4{
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 .formLabel{
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
     display: block;
     color: rgb(55 65 81);
 }
@@ -325,4 +313,5 @@ body {
 .contact-input:focus {
     outline: none;
     box-shadow: 0 0 0 2px #000000;
+
 }
