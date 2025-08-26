@@ -236,13 +236,13 @@ body {
     color: rgb(55 65 81);
 }
 .formInputArea{
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
     border-color: rgb(224, 217, 217);
     border-width: 1px;
-    border-radius: 0.25rem;
+    border-radius: 4px;
     width: 100%;
 
     font-family: inherit;
@@ -256,16 +256,16 @@ body {
     margin: 0;
 }
 .squish{
-    max-width: 42rem;
+    max-width: 672px;
 }
 .formSubmit{
     color: rgb(255 255 255);
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
     background-color: rgb(37 99 235);
-    border-radius: 0.25rem;
+    border-radius: 4px;
     width: 100%;
 
 
@@ -283,14 +283,14 @@ body {
 
 .footer{
     color: rgb(255 255 255);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 32px;
+    padding-bottom: 32px;
     background-color: rgb(31 41 55);
 }
 .footerAlign{
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 16px;
 }
 .footerText{
     color:rgb(190, 190, 190);
@@ -315,3 +315,4 @@ body {
     box-shadow: 0 0 0 2px #000000;
 
 }
+
